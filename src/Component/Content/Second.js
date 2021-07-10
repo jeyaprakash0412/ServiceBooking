@@ -140,15 +140,20 @@ const Second = () => {
             <div  class="col-2" align="right">
             <Link to ="/Second"><button type="submit" class="btn btn-primary btn-lg">Delete  </button></Link> </div>
             <div  class="col-2" align="left">
-            <Link to ="/Second"><button type="submit" class="btn btn-primary btn-lg " onClick={history.goBack}>Cancel </button></Link> </div>
-            
+            <Link to ="/Second"><button type="submit" class="btn btn-primary btn-lg " onClick={history.goBack}>Cancel </button></Link> </div> 
             </div>
             <Footer/>
         </div>
-        
     )
 }
-
 export default Second
+
+
+
+
+
+
+
+
 
 
